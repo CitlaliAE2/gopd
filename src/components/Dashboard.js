@@ -29,14 +29,7 @@ const Dashboard = () => {
         </Routes>
       </div>
       {/* Botón de cerrar sesión */}
-      <div className="absolute bottom-6 left-6">
-        <button
-          onClick={handleLogout}
-          className="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600 transition-all"
-        >
-          Cerrar sesión
-        </button>
-      </div>
+      
     </div>
   );
 };

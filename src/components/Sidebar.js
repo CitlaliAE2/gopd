@@ -13,7 +13,9 @@ const Sidebar = () => {
           <Link to="/dashboard/ver-trabajadores" className="text-gray-700 hover:text-purple-600 transition-all">Ver Trabajadores</Link>
         </li>
         <li>
-
+        <li>
+          <Link to="/" className="text-gray-700 hover:text-purple-600 transition-all">Cerrar Sesion</Link>
+        </li>
         </li>
       </ul>
     </div>
